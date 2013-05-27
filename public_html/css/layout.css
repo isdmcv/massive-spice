@@ -1,0 +1,281 @@
+/* 
+    Document   : layout
+    Created on : May 20, 2013, 10:10:18 AM
+    Author     : Misael Alecis C. De Vera, Jr <m-devera@mitsubishi-motors.com.ph || misaeldeverajr@me.com>
+    Description:
+        For the layout
+*/
+body, root{
+    font-family: sans-serif, serif;
+    display: block;
+
+}
+
+
+#wrapper {
+    position: relative;
+    width: 960px;
+    height: 100%;
+    margin: 0px 0 0 -480px;
+    left: 50%;
+
+
+}
+#headercont{
+    position: fixed;
+    top: 0px ;
+    width: 100%;
+    height: 80px;
+
+
+
+    background: white;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 20px 0px rgba(255, 0, 0, 0.25);
+    border-bottom: 2px solid red;
+
+    z-index: 1000;
+}
+#header{
+    position: absolute;
+    bottom: 0px ;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+
+}
+
+#contact{
+    position: absolute;
+    bottom: 100px ;
+
+    width: 880px;
+    height: 400px; 
+
+    margin: 0px 0 0 -440px;
+    left: 50%;
+
+
+}
+
+
+#logo{
+    position: relative;
+    width: 70px;
+    height: 80px;
+
+    background: url('../images/experiment.png');
+    background-repeat: no-repeat;
+}
+
+
+
+
+#nav {
+    position: absolute;
+
+
+    bottom: 0px;
+    right: 0px;
+    margin: 0 20px 0 0;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+
+
+}
+
+
+#nav li {
+
+    border-bottom: 1px solid #ccc; 
+    border-top: 1px solid #ccc; 
+    float: left; 
+}
+#nav li a {
+    display: block;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    color: #888;
+    border-right: 1px solid #ccc; 
+
+
+}
+
+#nav>:first-child
+{
+    border-left: 1px solid #ccc; 
+}
+
+#nav li a:hover {
+    color: #c00;
+    background-color: #f2f2f2;
+
+
+}
+
+
+
+#title{
+    position: absolute;
+
+    width: 60%;
+    height: 80px;
+
+    top: 0px;
+    right: 0px;
+
+
+}
+
+#title h1{
+    color: #666;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.contents{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 600px;
+
+    box-shadow: 0 -10px 20px 0px rgba(0, 0, 0, 0.25);
+    border-top: 2px solid red;
+
+    margin-bottom:  30px;
+}
+
+#news{
+    position: relative;
+    margin-top: 500px;
+
+
+}
+
+#company{
+    position: relative;
+
+}
+
+
+.box{
+    display: block;
+    width: 430px;
+    margin: 10px;
+    float: left;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+
+
+
+}
+
+
+.widebox{
+    display: block;
+    position: relative;
+    width: 95%;
+    margin: auto;
+
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.75);
+    padding: 10px;
+
+
+
+}
+
+.box h1 , .widebox h1 {
+    color: #5e5e5e;
+
+    text-align: center;
+
+}
+.box h2, .widebox h2{
+    color: #6e6e6e;
+}
+
+.box p, .widebox p{
+    color: #666;
+
+}
+
+.widebox img{
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
+
+
+
+#footer{
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    font-size: 10px;
+}
+
+#footer li{
+
+    display: inline;
+    list-style: none;
+
+
+}
+
+
+#map-canvas{
+
+
+    width: 100%;
+    height: 350px;
+
+
+}
+
+#popMenu{
+        display: none;
+    position: fixed;
+    background: url('../images/jpeg.jpg');
+    background-position: bottom;
+    width: 960px;
+    height: 600px;
+    margin: 0px 0 0 -430px;
+    left: 50%;
+    top: 80px;
+    z-index: 200;
+    box-shadow: 0 10px 20px 0px rgba(0, 255, 0, 0.25);
+}
+
+#popMenu p{
+
+    float: left;
+    padding: 20px;
+    margin-top: 20px;
+      color: #666;
+}
+#popMenu > .box > img{
+    position: relative;
+     margin: 0px 0 0 -175px;
+    left: 50%;
+      color: #666;
+}
+
+.closeup{
+     height:  35px;
+    width: 35px;
+    position: absolute;
+    top: 90%;
+    left: 95%;
+      background: url('../images/uparrows.png'); 
+ opacity:0.5;
+    filter:alpha(opacity=50);
+}
+
+.closeup:hover{
+    opacity:0.8;
+        filter:alpha(opacity=80);
+}

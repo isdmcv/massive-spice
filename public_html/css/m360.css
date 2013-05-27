@@ -1,0 +1,60 @@
+/* 
+    Document   : m360
+    Created on : May 23, 2013, 8:39:28 AM
+    Author     : Misael Alecis C. De Vera, Jr <m-devera@mitsubishi-motors.com.ph || misaeldeverajr@me.com>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+
+.m360 {
+
+    display: block;
+    position: relative;
+    margin: auto;
+    
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+    
+}
+
+
+.control360 {
+      position: absolute; 
+          top: 80%;
+             height:  55px;
+    width: 215px;
+      opacity:0.5;
+    filter:alpha(opacity=50);
+     z-index: 2;
+       
+}
+
+.control360:hover{
+       opacity:0.8;
+	filter:alpha(opacity=80);
+}
+
+#prev360{
+     background: url('../images/360/left_arrow.png');
+     
+   
+        
+           left: 10%;
+}
+
+
+#next360{
+     background: url('../images/360/right_arrow.png');
+    
+     
+      
+        
+           right: 10%;
+}
